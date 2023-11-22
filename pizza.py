@@ -26,12 +26,5 @@ def check_argument():
     if ".csv" not in sys.argv[1]:
         sys.exit("Not a CSV file")
 
-def check_lines(line):
-    if line.isspace():
-        return True
-    if line.lstrip().startswith("#"):
-        return True
-    return False
-
 if __name__ == "__main__":
     main()
