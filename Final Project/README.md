@@ -70,6 +70,6 @@ You have booked room No. A1002. Enjoy your stay.⛲
 
 4. To test the program by executing the following command in your terminal:
 
-```bash
+    ```bash
     python test_project.py
-```
+    ```
