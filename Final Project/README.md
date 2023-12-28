@@ -10,7 +10,6 @@ Use pip to install the package tabulate
     ```bash
     pip install tabulate
     ```
-
 ## Features
 
 - **View Available Rooms:** See a list of rooms that are currently available for booking.
@@ -71,5 +70,6 @@ You have booked room No. A1002. Enjoy your stay.⛲
 4. To test the program by executing the following command in your terminal:
 
     ```bash
-    python test_project.py
+    pytest test_project.py
     ```
+
